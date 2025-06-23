@@ -6,7 +6,7 @@ import postcss from 'rollup-plugin-postcss';
 
 export default [
   {
-    input: 'src/index.tsx',
+    input: 'src/index.ts',
     output: [
       { file: 'dist/index.esm.js', format: 'esm' },
       { file: 'dist/index.cjs.js', format: 'cjs' },
@@ -20,7 +20,7 @@ export default [
     external: ['react', 'react-dom', '@react-three/fiber', '@react-three/drei'],
   },
   {
-    input: 'src/index.tsx',
+    input: 'src/index.ts',
     output: { file: 'dist/index.d.ts', format: 'es' },
     plugins: [dts()],
   },
