@@ -188,6 +188,13 @@ export const defaultTheme = {
 2. **Production Build**: `npm run build` → outputs `/dist` for publishing to NPM or static host.
 3. **Publish**: ensure semantic versioning, `npm publish` → GitHub Pages or Netlify for demo.
 
+### Getting Started
+
+1. Install dependencies with `npm install`.
+2. Start the dev server using `npm run dev` and open `http://localhost:3000`.
+3. Run unit tests via `npm test`.
+4. Create a library build using `npm run build`.
+
 ### 12. Implementation Roadmap
 
 1. Scaffold with Vite + React + R3F template.
