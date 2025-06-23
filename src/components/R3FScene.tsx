@@ -17,7 +17,7 @@ export const R3FScene: React.FC<Props> = ({ theme }) => {
   useFrame(({ clock }) => {
     if (waterRef.current) {
       const material = waterRef.current.material as THREE.MeshStandardMaterial;
-      material.normalMap.offset.set(clock.getElapsedTime() * 0.05, 0);
+      material.normalMap?.offset.set(clock.getElapsedTime() * 0.05, 0);
     }
   });
 
